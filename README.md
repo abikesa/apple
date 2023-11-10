@@ -10,6 +10,7 @@
 - Backlit Magic Keyboard with Touch ID - US English
 - Final Cut Pro
 - Logic Pro
+- `$4699`
 
 # Customize your Mac Studio
 - Apple M2 Ultra with 24‑core CPU, 60‑core GPU, 32‑core Neural Engine
