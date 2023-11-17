@@ -1,3 +1,12 @@
+```
+  1. Physics vs. Meta
+                     \
+  3. Epistemology ->  2. Identity -> 5.  Time -> 6. Change
+                     /
+                      4. Ontology
+```
+
+
 # Customize your 16‑inch MacBook Pro - Space Black
 16-inch MacBook Pro, open, display, thin bezel, FaceTime HD camera, raised feet, rounded corners, Space Black
 
@@ -33,3 +42,10 @@
 # Endnote
 - $275
 
+```
+  1. Hardware, OS, Cloud
+                        \
+        3. Developer ->  2. Application -> 5.  Task -> 6. UserExperience
+                        /
+                         4. GUI/API
+```
