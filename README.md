@@ -49,3 +49,41 @@
                         /
                          4. GUI/API
 ```
+
+---
+
+```
+
+
+From: Abimereki Muzaale <muzaale@jhmi.edu>
+Date: Friday, November 17, 2023 at 11:12 AM
+To: techhub <techhub@jhmi.edu>
+Subject: Re: Your order: REQ0228127
+Thanks for the update, Veronica. But I see that you ordered a Silver MacBook Pro. I’d selected a Space Black laptop. Please help fix this!
+ 
+Thanks!
+ 
+Abi
+ 
+From: techhub <techhub@jhmi.edu>
+Date: Friday, November 17, 2023 at 10:45 AM
+To: Abimereki Muzaale <muzaale@jhmi.edu>
+Subject: Your order: REQ0228127
+Greetings, 
+
+We have received your order . Please use the link below to track your order. Unfortunately, the Leather Sleeve for 16-inch MacBook Pro – Black has been discontinued and we do not have an alternative to offer. 
+ 
+We will be in contact via email once your order arrives in order to arrange pick up. 
+
+Track your order 
+
+Thank you,
+ 
+Veronica Gerald 
+Computer Support Assistant
+410-955-5484
+techhub@jhmi.edu
+855 N. Wolfe St. | Rangos Suite B
+ 
+
+```
