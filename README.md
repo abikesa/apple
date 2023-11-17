@@ -7,7 +7,7 @@
 ```
 
 
-# Customize your 16‑inch MacBook Pro - Space Black
+### Customize your 16‑inch MacBook Pro - Space Black
 16-inch MacBook Pro, open, display, thin bezel, FaceTime HD camera, raised feet, rounded corners, Space Black
 
 - Apple M3 Max chip with 16‑core CPU, 40‑core GPU, 16‑core Neural Engine
@@ -21,7 +21,7 @@
 - Logic Pro
 - `$4699`
 
-# Customize your Mac Studio
+### Customize your Mac Studio
 - Apple M2 Ultra with 24‑core CPU, 60‑core GPU, 32‑core Neural Engine
 - 64GB unified memory
 - 1TB SSD storage
@@ -29,17 +29,17 @@
 - Back: Four Thunderbolt 4 ports, two USB-A ports, one HDMI port, one 10Gb Ethernet port, one 3.5 mm headphone jack
 - `$3,999`
 
-# Buy Apple Studio Display
+### Buy Apple Studio Display
 - 27-inch 5K Retina display. 12MP Ultra Wide camera with Center Stage. Studio-quality mics. Six-speaker sound system with Spatial Audio
 - `$2299`
 
-# Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon - US English - Black Keys
+### Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon - US English - Black Keys
 - `$199`
 
-# Magic Trackpad - Black Multi-Touch Surface
+### Magic Trackpad - Black Multi-Touch Surface
 - `$149.00`
 
-# Endnote
+### Endnote
 - $275
 
 ```
