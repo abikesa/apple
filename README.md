@@ -55,10 +55,47 @@
 ```
 
 
-From: Abimereki Muzaale <muzaale@jhmi.edu>
-Date: Friday, November 17, 2023 at 11:12 AM
+
+From: techhub <techhub@jhmi.edu>
+Date: Friday, November 17, 2023 at 11:21 AM
+To: Abimereki Muzaale <muzaale@jhmi.edu>
+Subject: RE: Your order: REQ0228127
+You are very welcome!
+ 
+Veronica Gerald 
+Computer Support Assistant
+410-955-5484
+techhub@jhmi.edu
+855 N. Wolfe St. | Rangos Suite B
+ 
+From: Abimereki Muzaale <muzaale@jhmi.edu> 
+Sent: Friday, November 17, 2023 11:21 AM
 To: techhub <techhub@jhmi.edu>
 Subject: Re: Your order: REQ0228127
+ 
+Prompt, efficient! 
+ 
+Thanks, Veronica. 
+ 
+I really appreciate this 😊
+ 
+From: techhub <techhub@jhmi.edu>
+Date: Friday, November 17, 2023 at 11:19 AM
+To: Abimereki Muzaale <muzaale@jhmi.edu>
+Subject: RE: Your order: REQ0228127
+Track your order
+ 
+Veronica Gerald 
+Computer Support Assistant
+410-955-5484
+techhub@jhmi.edu
+855 N. Wolfe St. | Rangos Suite B
+ 
+From: Abimereki Muzaale <muzaale@jhmi.edu> 
+Sent: Friday, November 17, 2023 11:12 AM
+To: techhub <techhub@jhmi.edu>
+Subject: Re: Your order: REQ0228127
+ 
 Thanks for the update, Veronica. But I see that you ordered a Silver MacBook Pro. I’d selected a Space Black laptop. Please help fix this!
  
 Thanks!
@@ -84,6 +121,8 @@ Computer Support Assistant
 410-955-5484
 techhub@jhmi.edu
 855 N. Wolfe St. | Rangos Suite B
+ 
+
  
 
 ```
