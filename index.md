@@ -17,6 +17,8 @@ MathJax.Hub.Config({
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg)
 
+> Apple has built a reputation for prioritizing user [privacy](https://heinonline.org/HOL/LandingPage?handle=hein.journals/walq99&div=26&id=&page=) and [security](https://ieeexplore.ieee.org/abstract/document/9066964)
+
 ### Activation Function, $Q$: 1st, 3rd, 5th, [♭♭7th](https://en.wikipedia.org/wiki/Chord_notation#Chord_quality), 9th  
 - Hunter-gatherer/`War`: spiritual teachings  (I)
 - Peasant/`Economics`: [humanism](https://www.uuftc.org) (B)
