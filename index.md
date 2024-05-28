@@ -29,7 +29,7 @@ MathJax.Hub.Config({
        
 ### Weights, $\frac{dU()}{dQ}$: ♯9,♭9,♯11,♭13 
 - Electricity/`Musick`: prophetic utterances ([O](https://www.youtube.com/watch?v=1aM1KYvl4Dw))
-- Railway/`Leisure`: individual experience ([R](https://www.youtube.com/watch?v=fu-3WN9TJNI))     
+- Railway/`Leisure`: [individual](gpt4o.md) experience ([R](https://www.youtube.com/watch?v=fu-3WN9TJNI))     
 
 
 ```python
