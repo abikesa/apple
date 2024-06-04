@@ -3,5 +3,5 @@
 
 ```bash
 sudo killall coreaudiod
-```
+```  
    
