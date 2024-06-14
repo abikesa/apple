@@ -1,8 +1,8 @@
-                             1. VisionOS
-                                         \
-                               2. iOS -> 4. WatchOS -> 5. iPadOS -> 6. MacOS
-                                         /
-                                          3. HomeOS
+                              1. Vision.AudioOS
+                                                \
+                                      2. iOS -> 4. WatchOS -> 5. iPadOS -> 6. MacOS
+                                                /
+                                                 3. HomeOS
 
 
 ### Dionysus
