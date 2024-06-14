@@ -1,6 +1,6 @@
                              1. VisionOS
                                          \
-                          2. iPhoneOS -> 4. WatchOS -> 5. iPadOS -> 6. MacOS
+                               2. iOS -> 4. WatchOS -> 5. iPadOS -> 6. MacOS
                                          /
                                           3. HomeOS
 
