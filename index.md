@@ -6,7 +6,7 @@
 
 
 ### Dionysus
-- Voir/Mode::Apple
+- Voir/Mode::[Apple](https://en.wikipedia.org/wiki/Apple_Inc.#Privacy)
 - Savoir/Compute::Microsoft.OpenAI
 
 ### Sing O Muse!
