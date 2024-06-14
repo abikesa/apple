@@ -1,4 +1,4 @@
-```js
+
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
@@ -11,11 +11,13 @@ MathJax.Hub.Config({
   }
 });
 </script>
-```
+ 
 
 > *[Letters to Abigail](https://www.masshist.org/digitaladams/archive/doc?id=L17800512jasecond)*
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg)
+
+> [Apple](bugs.md) has built a reputation for prioritizing user [pri](https://heinonline.org/HOL/LandingPage?handle=hein.journals/walq99&div=26&id=&page=)[va](privacy.pdf)[cy](confidentiality.pdf) and [sec](https://ieeexplore.ieee.org/abstract/document/9066964)[urity](confidentiality.pdf)
 
 ### Activation Function, $Q$: 1st, 3rd, 5th, [♭♭7th](https://en.wikipedia.org/wiki/Chord_notation#Chord_quality), 9th  
 - Hunter-gatherer/`War`: spiritual teachings  (I)
@@ -27,7 +29,7 @@ MathJax.Hub.Config({
        
 ### Weights, $\frac{dU()}{dQ}$: ♯9,♭9,♯11,♭13 
 - Electricity/`Musick`: prophetic utterances ([O](https://www.youtube.com/watch?v=1aM1KYvl4Dw))
-- Railway/`Leisure`: individual experience ([R](https://www.youtube.com/watch?v=fu-3WN9TJNI))     
+- Railway/`Leisure`: [individual](gpt4o.md) experience ([R](https://www.youtube.com/watch?v=fu-3WN9TJNI))     
 
 
 ```python
@@ -81,12 +83,12 @@ Here is the generated image:
 
 ![Diminishing Marginal Utility](https://abikesa.github.io/johnadams/diminishing_marginalutility.png)
 
-> One needs challenges, a worthy adversary, the embrace of more remote overtones of the harmonic series - ***Q**ualities*
+> One needs [challenges](https://www.voanews.com/a/apple-defying-the-times-stays-quiet-on-ai-/7128857.html), a [worthy adversary](https://www.quora.com/Why-isnt-Apple-part-of-the-Partnership-on-AI), [the embrace](https://www.youtube.com/watch?v=EAw_Kfg0qoo) of [more remote](https://finance.yahoo.com/news/apple-missing-ai-hype-140002045.html) [overtones](https://www.pymnts.com/artificial-intelligence-2/2024/can-apple-rely-on-its-vast-user-base-give-it-an-ai-edge/) of the [harmonic](https://www.reddit.com/r/singularity/comments/1b34dmf/do_you_think_apple_will_be_left_behind_in_the_ai/?rdt=61575) [series](https://www.wired.com/story/apple-ghosts-the-generative-ai-revolution/) - ***Q**ualities*
 
-- Westmalle Dubbel, $7$ %
-- Duvel, $8.5$ %
-- Truth, $8.7$ %
-- Westmalle Tripel, $9.5$ %
-- St. Bernardus `Abt 12`, $10$ %
+- [Westmalle Dubbel](https://www.youtube.com/watch?v=r3De5ji6QsY), $7$ %
+- [Duvel](https://www.economist.com/business/2024/03/03/apple-is-right-not-to-rush-headlong-into-generative-ai), $8.5$ %
+- [Truth](https://www.mindstream.news/p/apple-missed-ai-boat), $8.7$ %
+- [Westmalle Tripel](https://medium.com/@ignacio.de.gregorio.noblejas/apple-might-have-a-real-ai-problem-920d55a2732f), $9.5$ %
+- [St. Bernardus](https://www.wsj.com/tech/ai/apple-investors-grow-impatient-on-artificial-intelligence-3f934e1e) `Abt 12`, $10$ %
 
 ![](https://abikesa.github.io/belgian/craft.png)
