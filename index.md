@@ -10,8 +10,8 @@
 - **Skills**: Inputs languages, images, and actions from personal context into neural & diffusion networks 
 
 ### Sing O Muse!
-- **Tools**: In-house `A17` silicon, local, private, secture, no data storage, real-time usage
-- **Agency**: Private cloud compute, server-based models, for elevated and secure experience beyond your device 
+- **Tools**: In-house `A17` silicon, local, private, [secture](https://abikesa.github.io/sociology/), no data storage, real-time usage
+- **Agency**: Private [cloud](https://abikesa.github.io/generalize/) compute, server-based models, for elevated and secure experience beyond your device 
 
 ### Apollo
 - **Realtime**: Across [xOS](os.md), data never stored, encrypted when leveraging SBMs in cloud
