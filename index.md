@@ -15,7 +15,7 @@
 
 ### Apollo
 - **Realtime**: Across [xOS](os.md), data never stored, encrypted when leveraging SBMs in cloud
-- **GPT**: Surface info from neuralnetwork shared for world knowledlge relevant to personal context
+- **GPT**: Surface info from neuralnetwork shared for [world knowledlge](https://chatgpt.com) or **domain expertise** relevant to personal context
 
 
  
