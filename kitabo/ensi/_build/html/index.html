@@ -63,8 +63,6 @@
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <script src="_static/script.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -163,8 +161,8 @@
       
     
     
-    <img src="_static/apmmpa.png" class="logo__image only-light" alt="The Gambler - Home"/>
-    <script>document.write(`<img src="_static/apmmpa.png" class="logo__image only-dark" alt="The Gambler - Home"/>`);</script>
+    <img src="_static/trump_v_kamala.png" class="logo__image only-light" alt="The Gambler - Home"/>
+    <script>document.write(`<img src="_static/trump_v_kamala.png" class="logo__image only-dark" alt="The Gambler - Home"/>`);</script>
   
   
 </a></div>
@@ -412,85 +410,13 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="preface">
 <span id="id1"></span><h1>Preface<a class="headerlink" href="#preface" title="Permalink to this heading">#</a></h1>
-<p>We outline a structure for analyzing events or systems in three distinct stages:</p>
-<ol class="arabic simple">
-<li><p><strong>History (agent, principal)</strong>: <span id="id2"><sup><a class="reference internal" href="act3/part3/part3_3.html#id2" title="Ankur Deka. On combining reinforcement learning &amp; adversarial training. Master's thesis, Carnegie Mellon University, Pittsburgh, PA, July 2021. URL: https://www.ri.cmu.edu/publications/on-combining-reinforcement-learning-adversarial-training/.">1</a></sup></span> This could represent the foundational relationships and roles in any system. The <em>agent</em> refers to the one acting on behalf of another (the <em>principal</em>), suggesting an origin in legal, economic, or philosophical thought. For example, in finance, the agent manages assets for the principal, and in history, it could refer to leaders (agents) executing the will of the people or sovereigns (principals). The key here is the nature of the relationship and the motivations behind action: i.e., adversarial training &amp; reinforcement learning. This step lays out the power &amp; game dynamics. (Think Alexei &amp; The General in <em>The Gambler</em>). <code class="docutils literal notranslate"><span class="pre">Strategy</span></code></p></li>
-<li><p><strong>Experience (amateur, professional)</strong>: This stage highlights the growth or development within a system, where experience determines the evolution of the actors involved. The amateur is learning, experimenting, and taking risks, while the professional operates with a deeper understanding, possibly more constrained by rules or market expectations. This could be applied to many areas—musicians, traders, or scholars all evolve through this dichotomy. (Think Tight-Rope Walker in <em>Thus Spoke Zarathustra</em>). <code class="docutils literal notranslate"><span class="pre">Payoff</span></code></p></li>
-<li><p><strong>Reconciliation (market makers)</strong>: This final stage involves the synthesis or balancing act between different actors in a market. <em>Market makers</em> suggests a focus on liquidity and equilibrium, where those who understand both sides (agent/principal and amateur/professional) create systems that allow for continuous trade, exchange, or balance. This could be interpreted economically, socially, or even artistically, as a way to resolve tensions between different players or perspectives. (Think United Workers in <em>Communist Manifesto</em>) <code class="docutils literal notranslate"><span class="pre">Nash</span></code></p></li>
-</ol>
-<p>The whole progression from historical roles, through the development of experience, to a final stage of reconciliation is quite balanced and mirrors many evolutionary processes. How would you apply this structure in your work or thinking?</p>
-<p><span class="math notranslate nohighlight">\(
-\begin{bmatrix}
-\textcolor{gray}{x} \\ y \\ z \\ t \\ m
-\end{bmatrix}
-\begin{bmatrix}
-\textcolor{gray}{\text{Friendship}} &amp; \textcolor{gray}{\text{Character}} &amp; \textcolor{gray}{\text{Ethics}} \\
-\text{Raw} &amp; \text{Filtered} &amp; \text{Transcendental} \\
-\text{DRE} &amp; \text{STEM} &amp; \text{ART} \\
-\text{History} &amp; \text{Experience} &amp; \text{Reconciliation} \\
-\text{Phonetics} &amp; \text{Temperament} &amp; \text{Mode}
-\end{bmatrix}
-\)</span></p>
-<div class="cell tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show code cell source</span>
-<span class="expanded">Hide code cell source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="k">def</span> <span class="nf">draw_triangle</span><span class="p">(</span><span class="n">ax</span><span class="p">,</span> <span class="n">vertices</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Draws a triangle given vertices and labels for each vertex.&quot;&quot;&quot;</span>
-    <span class="n">triangle</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">Polygon</span><span class="p">(</span><span class="n">vertices</span><span class="p">,</span> <span class="n">edgecolor</span><span class="o">=</span><span class="n">color</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">)</span>
-    <span class="n">ax</span><span class="o">.</span><span class="n">add_patch</span><span class="p">(</span><span class="n">triangle</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vertices</span><span class="p">):</span>
-        <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">labels</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">get_triangle_vertices</span><span class="p">(</span><span class="n">center</span><span class="p">,</span> <span class="n">radius</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns the vertices of an equilateral triangle centered at `center` with a given `radius`.&quot;&quot;&quot;</span>
-    <span class="n">angles</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">4</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span>  <span class="c1"># angles for vertices of an equilateral triangle</span>
-    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">column_stack</span><span class="p">([</span><span class="n">center</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">radius</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">angles</span><span class="p">),</span>
-                            <span class="n">center</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">radius</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">angles</span><span class="p">)])</span>
-
-<span class="c1"># Create the plot</span>
-<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_aspect</span><span class="p">(</span><span class="s1">&#39;equal&#39;</span><span class="p">)</span>
-
-<span class="c1"># Define the layers of the fractal with vertices and labels</span>
-<span class="n">centers</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)]</span>
-<span class="n">radii</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
-<span class="n">triads</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">[</span><span class="s1">&#39;Betrayal&#39;</span><span class="p">,</span> <span class="s1">&#39;Power&#39;</span><span class="p">,</span> <span class="s1">&#39;Survival&#39;</span><span class="p">],</span>
-    <span class="p">[</span><span class="s1">&#39;Loyalty&#39;</span><span class="p">,</span> <span class="s1">&#39;Empathy&#39;</span><span class="p">,</span> <span class="s1">&#39;Resilience&#39;</span><span class="p">],</span>
-    <span class="p">[</span><span class="s1">&#39;Faith&#39;</span><span class="p">,</span> <span class="s1">&#39;Love&#39;</span><span class="p">,</span> <span class="s1">&#39;Hope&#39;</span><span class="p">],</span>
-    <span class="p">[</span><span class="s1">&#39;Friendship&#39;</span><span class="p">,</span> <span class="s1">&#39;Character&#39;</span><span class="p">,</span> <span class="s1">&#39;Ethics&#39;</span><span class="p">],</span>
-
-<span class="p">]</span>
-<span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;orange&#39;</span><span class="p">,</span> <span class="s1">&#39;purple&#39;</span><span class="p">]</span>
-
-<span class="c1"># Draw the triangles with increasing radius and different colors</span>
-<span class="k">for</span> <span class="n">radius</span><span class="p">,</span> <span class="n">triad</span><span class="p">,</span> <span class="n">color</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">radii</span><span class="p">,</span> <span class="n">triads</span><span class="p">,</span> <span class="n">colors</span><span class="p">):</span>
-    <span class="n">vertices</span> <span class="o">=</span> <span class="n">get_triangle_vertices</span><span class="p">(</span><span class="n">centers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">radius</span><span class="p">)</span>
-    <span class="n">draw_triangle</span><span class="p">(</span><span class="n">ax</span><span class="p">,</span> <span class="n">vertices</span><span class="p">,</span> <span class="n">triad</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">color</span><span class="p">)</span>
-
-<span class="c1"># Set limits and hide axes to fit the frame</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mf">3.7</span><span class="p">,</span> <span class="mf">3.7</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="o">-</span><span class="mf">3.7</span><span class="p">,</span> <span class="mf">3.7</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
-
-<span class="c1"># Display the plot</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;figures/apmmpa.png&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</details>
-<div class="cell_output docutils container">
-<img alt="_images/79a4ba14c1db414570139dec006527244f310979cffe75cc1653cc97bd03e754.png" src="_images/79a4ba14c1db414570139dec006527244f310979cffe75cc1653cc97bd03e754.png" />
-</div>
-</div>
+<p>We are agents in an age-old battle between Dynamic and Static systems, and I stand firmly with the former. In clinical and public health literature, typical graphical outputs—like the static Kaplan-Meier survival curves—provide snapshots of population-level survival probabilities over time. These are orthodox, comforting in their finality and simplicity. They are, however, incomplete. Static representations are rigid and fail to capture the personalized, interactive nature of risk—something dynamic systems can do with precision.</p>
+<p>In this Jupyter Book, I offer more than mere orthodoxy. I introduce a dynamic, interactive web application that personalizes risk for individuals based on 58-100 demographic and clinical characteristics. Hosted on GitHub, this app uses .js and .html to take static orthodoxy and explode it with possibilities, allowing for a real-time exploration of personal data. The output is dynamic: fluid, interactive, and adaptive. It reflects the complexity of human experience rather than forcing it into predetermined subgroups or categories.</p>
+<p>To conceptualize this journey, I lean on a structure of adversarial training and reinforcement learning:</p>
+<p><strong>History (Agent, Principal):</strong> <span id="id2"><sup><a class="reference internal" href="act3/part3/part3_3.html#id2" title="Ankur Deka. On combining reinforcement learning &amp; adversarial training. Master's thesis, Carnegie Mellon University, Pittsburgh, PA, July 2021. URL: https://www.ri.cmu.edu/publications/on-combining-reinforcement-learning-adversarial-training/.">1</a></sup></span> The relationship between agent and principal is foundational. In this context, I represent the agent of dynamic systems, breaking free from the constraints of the static principals—those who uphold the traditions of clinical literature. The struggle between us is not just techn</p>
+<p><strong>Experience (Amateur, Professional):</strong> Here, the amateur represents early risk assessments—crude, static snapshots—while the professional represents sophisticated, real-time modeling that evolves over time. My application represents the latter, dynamically evolving to present an accurate, individualized risk profile in real time. This isn’t static; it’s dynamite.</p>
+<p><strong>Reconciliation (Market Makers):</strong> Finally, in markets or systems, those who reconcile competing forces are critical. In my work, I serve as the ‘market maker,’ creating equilibrium between static norms and dynamic innovation, much like Nash equilibria in economic theory. My mentors represent static orthodoxy, but I am the force that will reconcile the static with the dynamic through continuous interaction and adaptation.</p>
+<p>By embedding this dynamic system into the traditionally static realm of clinical risk assessments, I aim to spark a revolution. This is not just about generating survival curves but reshaping how we think about risk, about life, and about how dynamic systems can personalize and optimize health outcomes.</p>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <Details>
