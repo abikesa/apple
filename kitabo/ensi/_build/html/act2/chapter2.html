@@ -419,7 +419,10 @@ document.write(`
 <h1>Engineering<a class="headerlink" href="#engineering" title="Permalink to this heading">#</a></h1>
 <section id="sympathetic-engineering">
 <h2>Sympathetic Engineering<a class="headerlink" href="#sympathetic-engineering" title="Permalink to this heading">#</a></h2>
-<p>Coming Soon …</p>
+<p><em>If I’d managed sons for him instead of all those little girls,</em><br />
+<em>I’d still be Queen of France and we should not have known each other.</em><br />
+<em>Such, my angels, is the role of sex in history</em><br />
+– <a class="reference external" href="https://assets.scriptslug.com/live/pdf/scripts/the-lion-in-the-winter-1968.pdf">Eleanor</a></p>
 <div class="cell tag_hide-input docutils container">
 <details class="hide above-input">
 <summary aria-label="Toggle hidden content">
@@ -435,33 +438,33 @@ document.write(`
 <span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
     <span class="k">return</span> <span class="p">{</span>
         <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Sacrifice&#39;</span><span class="p">,</span> <span class="s1">&#39;Means&#39;</span><span class="p">,</span> <span class="s1">&#39;Ends&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Yellowstone/SensoryAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Martyrdom&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Input/AgenticAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Bad&#39;</span><span class="p">,</span> <span class="s1">&#39;Good&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Hidden/GenerativeAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;David&#39;</span><span class="p">,</span> <span class="s1">&#39;Old vs New Morality&#39;</span><span class="p">,</span> <span class="s1">&#39;Solomon&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Output/PhysicalAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Levant&#39;</span><span class="p">,</span> <span class="s1">&#39;Wisdom&#39;</span><span class="p">,</span> <span class="s1">&#39;Priests&#39;</span><span class="p">,</span> <span class="s1">&#39;Impostume&#39;</span><span class="p">,</span> <span class="s1">&#39;Temple&#39;</span><span class="p">]</span>
+        <span class="s1">&#39;Yellowstone/SensoryAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Coin Toss&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Input/AgenticAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Girls&#39;</span><span class="p">,</span> <span class="s1">&#39;Boys&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Hidden/GenerativeAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Mistress&#39;</span><span class="p">,</span> <span class="s1">&#39;History&#39;</span><span class="p">,</span> <span class="s1">&#39;Queen&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Output/PhysicalAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Levant&#39;</span><span class="p">,</span> <span class="s1">&#39;Wisdom&#39;</span><span class="p">,</span> <span class="s1">&#39;Warrior&#39;</span><span class="p">,</span> <span class="s1">&#39;Impostume&#39;</span><span class="p">,</span> <span class="s1">&#39;Temple&#39;</span><span class="p">]</span>
     <span class="p">}</span>
 
 <span class="c1"># Assign colors to nodes</span>
 <span class="k">def</span> <span class="nf">assign_colors</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">layer</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Martyrdom&#39;</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Coin Toss&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;yellow&#39;</span>
     <span class="k">if</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span> <span class="s1">&#39;Ends&#39;</span><span class="p">]:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
     <span class="k">if</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span> <span class="s1">&#39;Means&#39;</span><span class="p">]:</span>
         <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-    <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Input/AgenticAI&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Good&#39;</span><span class="p">:</span>
+    <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Input/AgenticAI&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Boys&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Hidden/GenerativeAI&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Solomon&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Queen&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Old vs New Morality&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;History&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;David&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Mistress&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Output/PhysicalAI&#39;</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Temple&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Impostume&#39;</span><span class="p">,</span> <span class="s1">&#39;Priests&#39;</span><span class="p">,</span> <span class="s1">&#39;Wisdom&#39;</span><span class="p">]:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Impostume&#39;</span><span class="p">,</span> <span class="s1">&#39;Warrior&#39;</span><span class="p">,</span> <span class="s1">&#39;Wisdom&#39;</span><span class="p">]:</span>
             <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
         <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Levant&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>
@@ -504,7 +507,7 @@ document.write(`
         <span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">node_colors</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span>
         <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.1&quot;</span>
     <span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Old vs. New Morality&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Role of Sex&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 <span class="c1"># Run the visualization</span>
@@ -514,7 +517,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../_images/cc668a95b6b108e651a0c1cc5253a2b5f4cc037408a2e73ff32f561c20e7aa65.png" src="../_images/cc668a95b6b108e651a0c1cc5253a2b5f4cc037408a2e73ff32f561c20e7aa65.png" />
+<img alt="../_images/c035b4d3101a33d96f802512507250fda02904370cbfc0234e5f0de1cc3e5ccc.png" src="../_images/c035b4d3101a33d96f802512507250fda02904370cbfc0234e5f0de1cc3e5ccc.png" />
 </div>
 </div>
 <figure class="align-default" id="id1">
