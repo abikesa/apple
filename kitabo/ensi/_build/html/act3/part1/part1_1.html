@@ -436,7 +436,7 @@ document.write(`
 <span class="c1"># Define the neural network structure; modified to align with &quot;Aprés Moi, Le Déluge&quot; (i.e. Je suis AlexNet)</span>
 <span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
     <span class="k">return</span> <span class="p">{</span>
-        <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Price&#39;</span><span class="p">,</span> <span class="s1">&#39;Dinner&#39;</span><span class="p">,</span> <span class="s1">&#39;Butcher&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Price&#39;</span><span class="p">,</span> <span class="s1">&#39;Butcher&#39;</span><span class="p">,</span> <span class="s1">&#39;Dinner&#39;</span><span class="p">],</span>
         <span class="s1">&#39;Yellowstone/SensoryAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Martyrdom&#39;</span><span class="p">],</span>
         <span class="s1">&#39;Input/AgenticAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Bad&#39;</span><span class="p">,</span> <span class="s1">&#39;Good&#39;</span><span class="p">],</span>
         <span class="s1">&#39;Hidden/GenerativeAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Malevolence&#39;</span><span class="p">,</span> <span class="s1">&#39;Self-Interest&#39;</span><span class="p">,</span> <span class="s1">&#39;Benevolence&#39;</span><span class="p">],</span>
@@ -447,9 +447,9 @@ document.write(`
 <span class="k">def</span> <span class="nf">assign_colors</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">layer</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Martyrdom&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;yellow&#39;</span>
-    <span class="k">if</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span> <span class="s1">&#39;Butcher&#39;</span><span class="p">]:</span>
-        <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
     <span class="k">if</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span> <span class="s1">&#39;Dinner&#39;</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
+    <span class="k">if</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span> <span class="s1">&#39;Butcher&#39;</span><span class="p">]:</span>
         <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Input/AgenticAI&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Good&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
@@ -516,7 +516,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../_images/026729aed04aa6536373dc1a9e87a0c427c93b544534a70dc2eb43bf2c9f6945.png" src="../../_images/026729aed04aa6536373dc1a9e87a0c427c93b544534a70dc2eb43bf2c9f6945.png" />
+<img alt="../../_images/06282d5a48c58b2e44c84624790b37e44f4c9b88d0171c8b9f4619df2d40b393.png" src="../../_images/06282d5a48c58b2e44c84624790b37e44f4c9b88d0171c8b9f4619df2d40b393.png" />
 </div>
 </div>
 <figure class="align-default" id="id2">
