@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -15,53 +15,51 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'act3/part2/part2_1';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
@@ -77,19 +75,23 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -111,12 +113,20 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -131,9 +141,13 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../../index.html">
+  
   
   
   
@@ -143,12 +157,23 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="https://b2024606.smushcdn.com/2024606/wp-content/uploads/2015/04/AMNT_May15_CNE.jpg?lossy=2&strip=1&webp=1" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="https://b2024606.smushcdn.com/2024606/wp-content/uploads/2015/04/AMNT_May15_CNE.jpg?lossy=2&strip=1&webp=1" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="https://b2024606.smushcdn.com/2024606/wp-content/uploads/2015/04/AMNT_May15_CNE.jpg?lossy=2&strip=1&webp=1" class="logo__image only-light" alt="Reflex vs. Contemplative - Home"/>
+    <script>document.write(`<img src="https://b2024606.smushcdn.com/2024606/wp-content/uploads/2015/04/AMNT_May15_CNE.jpg?lossy=2&strip=1&webp=1" class="logo__image only-dark" alt="Reflex vs. Contemplative - Home"/>`);</script>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -159,45 +184,45 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../act1/part1.html">Informational</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../act1/part1.html">Informational</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../act1/chapter1.html">Referral</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../act1/chapter2.html">Screening</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../act1/chapter3.html">Eligibility</a></li>
 </ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../act2/part2.html">Strategic</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../act2/part2.html">Strategic</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../act2/chapter1.html">Principal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../act2/chapter2.html">Agent</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../act2/chapter3.html">Risk</a></li>
 
 </ul>
-</li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../part3.html">Operational</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 has-children"><a class="reference internal" href="../act1.html">Literature 🌊</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../part3.html">Operational</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act1.html">Literature 🌊</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../part1/part1_1.html">Cosmic</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../part1/part1_2.html">Uncertainty</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../part1/part1_3.html">Failure</a></li>
 
 </ul>
-</li>
-<li class="toctree-l2 current active has-children"><a class="reference internal" href="../act2.html">Personalize ⚓️</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+</details></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../act2.html">Personalize ⚓️</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l3 current active"><a class="current reference internal" href="#">Base</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="part2_2.html">Risk</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="part2_3.html">Student ☔️</a></li>
 </ul>
-</li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../act3.html">Update 🧭</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3.html">Update 🧭</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../part3/part3_1.html">Notification</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../part3/part3_2.html">Transformation</a></li>
 
 <li class="toctree-l3"><a class="reference internal" href="../part3/part3_3.html">Feedback</a></li>
 </ul>
-</li>
+</details></li>
 </ul>
-</li>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="../../bibliography.html">Existential</a></li>
 </ul>
 
@@ -214,7 +239,7 @@ const thebe_selector_output = ".output, .cell_output"
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -223,14 +248,14 @@ const thebe_selector_output = ".output, .cell_output"
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -255,14 +280,14 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="https://mybinder.org/v2/gh/abikesa/template/main?urlpath=tree/book/website/act3/part2/part2_1.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
-   title="Launch onBinder"
+   title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
   
-    <img src="../../_static/images/logo_binder.svg">
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
   </span>
 <span class="btn__text-container">Binder</span>
 </a>
@@ -336,26 +361,28 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -404,37 +431,37 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="base">
-<h1>Base<a class="headerlink" href="#base" title="Permalink to this headline">#</a></h1>
+<h1>Base<a class="headerlink" href="#base" title="Permalink to this heading">#</a></h1>
 <section id="jodeci">
-<h2>Jodeci<a class="headerlink" href="#jodeci" title="Permalink to this headline">#</a></h2>
+<h2>Jodeci<a class="headerlink" href="#jodeci" title="Permalink to this heading">#</a></h2>
 <p>This is an excellent compression of the RICHER framework into the architecture of music, particularly in terms of piano voicings and their interaction with rhythm. Let’s break it down and refine it further based on your ideas:</p>
 <iframe width="45%" height="315" src="https://www.youtube.com/embed/DNTjg3fwz9s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="45%" height="315" src="https://www.youtube.com/embed/u4j1XjKXn50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figure class="align-default" id="id2">
 <a class="reference internal image-reference" href="../../_images/blanche.png"><img alt="../../_images/blanche.png" src="../../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 12 </span><span class="caption-text"><em>In Western Music</em>. This song meets all the genre expectations. R&amp;B as its name suggests exploits a vast combinatorial space in the pockets of time to make familiar chord progressions sound fresh. Aeolian, Dominant Ionian, Dominant Aeolian in first Inversion (Passing Chord/Leading Note), Dorian, Phrygian Dominant. Repeat. And the lush jazzy padding. We also have a Gen Z fan reacting to Jodeci in what is nothing less than primeval: facial expressions, body movements, all betraying patterns in the music that invoke the parasympathetic nervous system – feed &amp; breed kinda stuff 🔥🔥🔥. Hip hop is more adversarial in nature.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 17 </span><span class="caption-text"><em>In Western Music</em>. This song meets all the genre expectations. R&amp;B as its name suggests exploits a vast combinatorial space in the pockets of time to make familiar chord progressions sound fresh. Aeolian, Dominant Ionian, Dominant Aeolian in first Inversion (Passing Chord/Leading Note), Dorian, Phrygian Dominant. Repeat. And the lush jazzy padding. We also have a Gen Z fan reacting to Jodeci in what is nothing less than primeval: facial expressions, body movements, all betraying patterns in the music that invoke the parasympathetic nervous system – feed &amp; breed kinda stuff 🔥🔥🔥. Hip hop is more adversarial in nature.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="richer-in-music">
-<h3><strong>RICHER in Music</strong><a class="headerlink" href="#richer-in-music" title="Permalink to this headline">#</a></h3>
+<h3><strong>RICHER in Music</strong><a class="headerlink" href="#richer-in-music" title="Permalink to this heading">#</a></h3>
 <section id="rules-immutable-foundations">
-<h4><strong>Rules (Immutable Foundations)</strong><a class="headerlink" href="#rules-immutable-foundations" title="Permalink to this headline">#</a></h4>
+<h4><strong>Rules (Immutable Foundations)</strong><a class="headerlink" href="#rules-immutable-foundations" title="Permalink to this heading">#</a></h4>
 <p>The “rules” in this context are the fundamental laws of harmony and rhythm: scales, modes, and the theory that governs chord structures. For instance, the diatonic system provides the scaffolding upon which the music operates. These are akin to immutable laws of nature in your neural network analogy.</p>
 </section>
 <section id="instincts-yellow-node">
-<h4><strong>Instincts (Yellow Node)</strong><a class="headerlink" href="#instincts-yellow-node" title="Permalink to this headline">#</a></h4>
+<h4><strong>Instincts (Yellow Node)</strong><a class="headerlink" href="#instincts-yellow-node" title="Permalink to this heading">#</a></h4>
 <p>The instincts emerge as the immediate, almost subconscious choices a pianist makes while playing—like choosing a dominant voicing in a Phrygian mode or instinctively resolving dissonance to consonance. The instinct is what bridges the raw inputs (scales, modes) to the execution of a harmonic framework. These choices reflect a deep, ingrained understanding of musical rules.</p>
 </section>
 <section id="categorization-compression-left-hand-voicings">
-<h4><strong>Categorization (Compression - Left-Hand Voicings)</strong><a class="headerlink" href="#categorization-compression-left-hand-voicings" title="Permalink to this headline">#</a></h4>
+<h4><strong>Categorization (Compression - Left-Hand Voicings)</strong><a class="headerlink" href="#categorization-compression-left-hand-voicings" title="Permalink to this heading">#</a></h4>
 <p>The left-hand voicing is the anchor, the <strong>compression layer</strong> of harmony. It defines the harmonic space—whether it’s dominant, subdominant, or tonic. A Phrygian dominant voicing, for instance, creates a modal framework that inherently sets up tension. This tension is “compressed” into a structure that influences all melodic and dissonant explorations in the right hand.</p>
 </section>
 <section id="hustle-hidden-layer-right-hand-voicings-and-dissonance">
-<h4><strong>Hustle (Hidden Layer - Right-Hand Voicings and Dissonance)</strong><a class="headerlink" href="#hustle-hidden-layer-right-hand-voicings-and-dissonance" title="Permalink to this headline">#</a></h4>
+<h4><strong>Hustle (Hidden Layer - Right-Hand Voicings and Dissonance)</strong><a class="headerlink" href="#hustle-hidden-layer-right-hand-voicings-and-dissonance" title="Permalink to this heading">#</a></h4>
 <p>Here, the <strong>hidden layer</strong> comes alive. The right hand introduces <strong>dissonance</strong>, exploring melodic possibilities within or against the harmonic framework set by the left hand. The dissonance creates vast <strong>combinatorial spaces</strong>, with modal interchange acting as a dynamic switch that allows for movement between tonalities or modes.</p>
 <ul class="simple">
 <li><p><strong>Example</strong>: A Phrygian dominant voicing in the left hand (E, F, G, A, B♭, C, D) opens a modal playground. The right hand can introduce passing tones or chromaticism, which injects dissonance and energy into the structure.</p></li>
@@ -444,19 +471,19 @@ document.write(`
 <figure class="align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/blanche.png"><img alt="../../_images/blanche.png" src="../../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 13 </span><span class="caption-text"><em>Three Pairs of Brothers Between Them</em>. Wisdom crieth from the streets and the church finally regardeth it. One of the lyrics from the Jodeci song says “Sometimes I get so lonely want to call you, baby.” In this case its lyrically, harmonically, and melodically the source of inspiration of the Dawkins “Whenever I’m Lonely I call on you, … “, which is actually transformational and not mere copying &amp; pasting. The padding of the track as well as the <a class="reference external" href="https://web.archive.org/web/20171108084947/https://revolt.tv/stories/2017/10/18/groove-story-jack-swing-06001869b1">New Jack Swing</a> subgenre cadences are mostly unchanged. By far the most common feature of New Jack Swing is a Lydian-Phrygian Dominant-Aeolian cadence. The half-step leap off-cliff harmony is quintessential.</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text"><em>Three Pairs of Brothers Between Them</em>. Wisdom crieth from the streets and the church finally regardeth it. One of the lyrics from the Jodeci song says “Sometimes I get so lonely want to call you, baby.” In this case its lyrically, harmonically, and melodically the source of inspiration of the Dawkins “Whenever I’m Lonely I call on you, … “, which is actually transformational and not mere copying &amp; pasting. The padding of the track as well as the <a class="reference external" href="https://web.archive.org/web/20171108084947/https://revolt.tv/stories/2017/10/18/groove-story-jack-swing-06001869b1">New Jack Swing</a> subgenre cadences are mostly unchanged. By far the most common feature of New Jack Swing is a Lydian-Phrygian Dominant-Aeolian cadence. The half-step leap off-cliff harmony is quintessential.</span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="emergence-output-pulse-rhythm-and-switch">
-<h4><strong>Emergence (Output - Pulse, Rhythm, and Switch)</strong><a class="headerlink" href="#emergence-output-pulse-rhythm-and-switch" title="Permalink to this headline">#</a></h4>
+<h4><strong>Emergence (Output - Pulse, Rhythm, and Switch)</strong><a class="headerlink" href="#emergence-output-pulse-rhythm-and-switch" title="Permalink to this heading">#</a></h4>
 <p>Rhythm serves as the <strong>switch</strong> and <strong>pulse</strong>—it creates the temporal framework where harmony and dissonance can dance. Rhythm governs the “when” of harmonic changes, ensuring that pockets of time are created for the left hand (harmony) and right hand (dissonance) to interplay dynamically.</p>
 <ul class="simple">
 <li><p><strong>Example</strong>: A syncopated rhythm can stretch or compress harmonic and melodic ideas, allowing for tension and release in unique ways. This rhythmic flexibility embodies the presynaptic autonomic ganglia’s role as a <strong>switch</strong>, coordinating the overall musical flow.</p></li>
 </ul>
 </section>
 <section id="red-queen-dynamic-feedback-loop">
-<h4><strong>Red Queen (Dynamic Feedback Loop)</strong><a class="headerlink" href="#red-queen-dynamic-feedback-loop" title="Permalink to this headline">#</a></h4>
+<h4><strong>Red Queen (Dynamic Feedback Loop)</strong><a class="headerlink" href="#red-queen-dynamic-feedback-loop" title="Permalink to this heading">#</a></h4>
 <p>The <strong>Red Queen hypothesis</strong> comes into play in modal interchange and the constant push for innovation within the combinatorial space of music. A pianist, like a composer, must continually evolve their musical language to maintain equilibrium between predictable harmonic structures and fresh dissonant explorations.</p>
 <ul class="simple">
 <li><p><strong>Example</strong>: The interplay of modal interchange (e.g., moving from Phrygian dominant to Lydian) keeps the harmonic landscape dynamic, preventing stagnation. This mirrors the evolutionary arms race of the Red Queen.</p></li>
@@ -465,7 +492,7 @@ document.write(`
 </section>
 <hr class="docutils" />
 <section id="refinements-for-rhythm">
-<h3><strong>Refinements for Rhythm</strong><a class="headerlink" href="#refinements-for-rhythm" title="Permalink to this headline">#</a></h3>
+<h3><strong>Refinements for Rhythm</strong><a class="headerlink" href="#refinements-for-rhythm" title="Permalink to this heading">#</a></h3>
 <p>I agree with your choice to keep rhythm as the presynaptic autonomic ganglia. Rhythm is the fundamental switch and pulse that enables all other layers to align and interact. It dictates the framework within which harmonic and melodic elements operate, creating the “breathing space” for musical ideas.</p>
 <ul class="simple">
 <li><p><strong>Rhythmic Pockets</strong>: These allow shifts in left-hand voicing (harmony) and right-hand voicing (dissonance) to feel natural and intentional. Without rhythm acting as a regulating force, the music risks becoming chaotic rather than dynamic.</p></li>
@@ -473,7 +500,7 @@ document.write(`
 </section>
 <hr class="docutils" />
 <section id="final-thoughts">
-<h3><strong>Final Thoughts</strong><a class="headerlink" href="#final-thoughts" title="Permalink to this headline">#</a></h3>
+<h3><strong>Final Thoughts</strong><a class="headerlink" href="#final-thoughts" title="Permalink to this heading">#</a></h3>
 <p>Your conceptualization aligns beautifully with the REACHER framework, particularly in how the <strong>hidden layer</strong> (hustle) represents the infinite possibilities within dissonance and modal interplay. Music is inherently about managing tension and release, and your mapping of left-hand voicings, right-hand melodies, and rhythm reflects this balance.</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
@@ -581,11 +608,11 @@ document.write(`
 </section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1><a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h1>
+<h1><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
 <figure class="align-default" id="id4">
 <a class="reference internal image-reference" href="act3/figures/blanche.*"><img alt="act3/figures/blanche.*" src="act3/figures/blanche.*" style="width: 1px; height: 1px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 14 </span><span class="caption-text"><em>From a Pianist View</em>. Left hand voices the mode and defines harmony. Right hand voice leads freely extend and alter modal landscapes. In R&amp;B that typically manifests as 9ths, 11ths, 13ths. Passing chords and leading notes are often chromatic in the genre. Music is evocative because it transmits information that traverses through a primeval pattern-recognizing architecture that demands a classification of what you confront as the sort for feeding &amp; breeding or fight &amp; flight. It’s thus a very high-risk, high-error business if successful.</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 19 </span><span class="caption-text"><em>From a Pianist View</em>. Left hand voices the mode and defines harmony. Right hand voice leads freely extend and alter modal landscapes. In R&amp;B that typically manifests as 9ths, 11ths, 13ths. Passing chords and leading notes are often chromatic in the genre. Music is evocative because it transmits information that traverses through a primeval pattern-recognizing architecture that demands a classification of what you confront as the sort for feeding &amp; breeding or fight &amp; flight. It’s thus a very high-risk, high-error business if successful.</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -615,11 +642,10 @@ document.write(`
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer d-print-none">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../act2.html"
@@ -639,10 +665,7 @@ document.write(`
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -650,6 +673,7 @@ document.write(`
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -693,6 +717,7 @@ document.write(`
   
   <div class="footer-item">
     
+
   </div>
   
   <div class="footer-item">
@@ -716,8 +741,8 @@ document.write(`
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
