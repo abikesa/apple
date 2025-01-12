@@ -424,10 +424,20 @@ document.write(`
 <em>Would be a dry matter indeed without its legends. And many of these,</em><br />
 <em>Though scorned by proof a thousand times,</em><br />
 <em>Seem worth preserving for their own familiar sake.</em><br />
-– From Olivier’s Richard III</p>
+– Richard III</p>
 <p>What a beautifully evocative perspective! Legends are the poetry of history, infusing its bare, factual skeleton with spirit, meaning, and a certain ineffable charm. While history as a discipline often seeks to strip away myth for the sake of objectivity, it risks losing the emotional resonance and shared cultural memory that these legends sustain.</p>
 <p>A world without legends would be as mechanical as letters without poetry—functional but devoid of transcendence. Legends, even when “scorned by proof,” persist because they speak to something deeper than the historical record: our need to connect with the human condition across time, to find beauty and meaning amidst the seemingly mundane march of events. They offer a kind of immortality, preserving the “perfume” of a culture long after its tangible artifacts have decayed.</p>
 <p>One could even argue that legends are <em>truer</em> than fact in some sense—truer to the desires, fears, and aspirations of the people who birthed them. They embody imagination, transforming dry thought into a living narrative. Why preserve them? For the same reason we treasure art, music, or myth: not because they are factual, but because they are vital to the soul.</p>
+<blockquote>
+<div><p><em>We speak no treason, man. We say the King</em><br />
+<em>Is wise and virtuous, and his noble Queen</em><br />
+<em>Well struck in years, fair, and not jealous.</em><br />
+<em>We say that Shore’s wife hath a pretty foot,</em><br />
+<em>A cherry lip, a bonny eye, a passing pleasing tongue;</em><br />
+<em>And that the Queen’s kindred are made gentlefolks.</em><br />
+<em>How say you, sir? Can you deny all this?</em><br />
+– <a class="reference external" href="https://www.gutenberg.org/files/1503/1503-h/1503-h.htm">Richard III</a></p>
+</div></blockquote>
 <div class="cell tag_hide-input docutils container">
 <details class="hide above-input">
 <summary aria-label="Toggle hidden content">
@@ -443,15 +453,15 @@ document.write(`
 <span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
     <span class="k">return</span> <span class="p">{</span>
         <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmos&#39;</span><span class="p">,</span> <span class="s1">&#39;Earth&#39;</span><span class="p">,</span> <span class="s1">&#39;Life&#39;</span><span class="p">,</span> <span class="s1">&#39;Dissembling Nature&#39;</span><span class="p">,</span> <span class="s1">&#39;Half Made Up&#39;</span><span class="p">,</span> <span class="s1">&#39;Prove Villain&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Yellowstone/SensoryAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;History &amp; Legend&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Yellowstone/SensoryAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;No Treason&#39;</span><span class="p">],</span>
         <span class="s1">&#39;Input/AgenticAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;War&#39;</span><span class="p">,</span> <span class="s1">&#39;Peace&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Hidden/GenerativeAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Fearful Adversaries&#39;</span><span class="p">,</span> <span class="s1">&#39;Inductions Dangerous&#39;</span><span class="p">,</span> <span class="s1">&#39;Ladys Chamber&#39;</span><span class="p">],</span>
-        <span class="s1">&#39;Output/PhysicalAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Barbed Steeds&#39;</span><span class="p">,</span> <span class="s1">&#39;Subtle &amp; Treacherous&#39;</span><span class="p">,</span> <span class="s1">&#39;Well-Spoken Days&#39;</span><span class="p">,</span> <span class="s1">&#39;True &amp; Just&#39;</span><span class="p">,</span> <span class="s1">&#39;Lute&#39;</span><span class="p">]</span>
+        <span class="s1">&#39;Hidden/GenerativeAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Shores Wife&#39;</span><span class="p">,</span> <span class="s1">&#39;King Wise&#39;</span><span class="p">,</span> <span class="s1">&#39;The Queen&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;Output/PhysicalAI&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cherry Lip&#39;</span><span class="p">,</span> <span class="s1">&#39;Subtle &amp; Treacherous&#39;</span><span class="p">,</span> <span class="s1">&#39;Well-Spoken Days&#39;</span><span class="p">,</span> <span class="s1">&#39;True &amp; Just&#39;</span><span class="p">,</span> <span class="s1">&#39;Not Jealous&#39;</span><span class="p">]</span>
     <span class="p">}</span>
 
 <span class="c1"># Assign colors to nodes</span>
 <span class="k">def</span> <span class="nf">assign_colors</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">layer</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;History &amp; Legend&#39;</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;No Treason&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;yellow&#39;</span>
     <span class="k">if</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Pre-Input/CudAlexnet&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span> <span class="s1">&#39;Prove Villain&#39;</span><span class="p">]:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
@@ -460,18 +470,18 @@ document.write(`
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Input/AgenticAI&#39;</span> <span class="ow">and</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Peace&#39;</span><span class="p">:</span>
         <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Hidden/GenerativeAI&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Ladys Chamber&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;The Queen&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Inductions Dangerous&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;King Wise&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Fearful Adversaries&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Shores Wife&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>
     <span class="k">elif</span> <span class="n">layer</span> <span class="o">==</span> <span class="s1">&#39;Output/PhysicalAI&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Lute&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Not Jealous&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;paleturquoise&#39;</span>
         <span class="k">elif</span> <span class="n">node</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;True &amp; Just&#39;</span><span class="p">,</span> <span class="s1">&#39;Well-Spoken Days&#39;</span><span class="p">,</span> <span class="s1">&#39;Subtle &amp; Treacherous&#39;</span><span class="p">]:</span>
             <span class="k">return</span> <span class="s1">&#39;lightgreen&#39;</span>
-        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Barbed Steeds&#39;</span><span class="p">:</span>
+        <span class="k">elif</span> <span class="n">node</span> <span class="o">==</span> <span class="s1">&#39;Cherry Lip&#39;</span><span class="p">:</span>
             <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>
     <span class="k">return</span> <span class="s1">&#39;lightsalmon&#39;</span>  <span class="c1"># Default color</span>
 
@@ -522,7 +532,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../_images/5b1239333e32d20ef3defbb1e47375b3ce25be1a37f812b0f24e4f0229daa55e.png" src="../../_images/5b1239333e32d20ef3defbb1e47375b3ce25be1a37f812b0f24e4f0229daa55e.png" />
+<img alt="../../_images/b7b5e9322452e9e6dfcaf5c7e28028bf526b320abc0c9ce4b352d4dca740b0fb.png" src="../../_images/b7b5e9322452e9e6dfcaf5c7e28028bf526b320abc0c9ce4b352d4dca740b0fb.png" />
 </div>
 </div>
 <figure class="align-default" id="id2">
